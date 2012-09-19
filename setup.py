@@ -3,22 +3,20 @@
 from distutils.core import setup
 
 setup(
-    name='robber',
-    version='0.0.4',
-    description='BDD / TDD assertion library for Python',
-    author='Veselin Todorov',
-    author_email='hi@vesln.com',
-    url='https://github.com/vesln/robber.py',
+    name='aeroio',
+    version='0.0.0',
+    description='aero.io integration',
+    author='aero.io',
+    author_email='support@aero.io',
+    url='https://github.com/aeroio/python/',
     packages=[
-        'robber',
-        'robber.matchers',
+        'aeroio'
     ],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
-        'Programming Language :: Python',
-        'Topic :: Software Development :: Testing'
+        'Programming Language :: Python'
     ],
 )
